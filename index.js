@@ -6,7 +6,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/will", function (req, res) {
-  res.send('( "response": "Selamat Datang!!" )');
+  res.send('( "response": "Selamat Datang!" )');
 });
 app.get("/ready", function (req, res) {
   res.send('{ "response": "YESSSSSSSS BERHASILLLLLLLLL" }');
